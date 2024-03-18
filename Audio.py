@@ -67,4 +67,3 @@ if(sys.argv[0] == "-r"):
     sound_to_data(sys.argv[1])
 else:
     play(sys.argv[1])
-
