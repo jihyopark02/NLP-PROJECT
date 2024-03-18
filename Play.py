@@ -5,8 +5,6 @@ import numpy as np
 from matplotlib import pyplot as plt
 from struct import pack
 
-
-
 def play(recordedFile):
     CHUNK = 1024
     
@@ -28,3 +26,4 @@ def play(recordedFile):
     stream.close()
     p.terminate()
     
+play('output1.wav')
