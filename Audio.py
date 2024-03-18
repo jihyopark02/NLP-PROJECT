@@ -5,7 +5,6 @@ import numpy as np
 from matplotlib import pyplot as plt
 from struct import pack
 
-
 def sound_to_data(outputFile):
     
     print("hello")
